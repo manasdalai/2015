@@ -132,12 +132,11 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 105,
-                "y": 145
+                "x": 101,
+                "y": 146
               },
               "target": {
-                "x": 295,
-                "y": 177
+                "id": "ffd01c3d-453b-4c76-8be9-98c1b30706f0"
               },
               "vertices": [
                 {
@@ -293,12 +292,139 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 220,
+                "y": 442
+              },
+              "target": {
+                "x": 591,
+                "y": 154
+              },
+              "vertices": [],
+              "id": "63f33980-e54c-4c71-b795-673d576260ed",
+              "z": 10,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 616,
+                "y": 296
+              },
+              "angle": 0,
+              "id": "53b1c869-6a5c-49a2-9c22-d757b0bb032f",
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Admin"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "835b79b9-87fa-4cfd-83fe-d0b47731b1af"
+              },
+              "target": {
+                "x": 613,
+                "y": 332
+              },
+              "vertices": [
+                {
+                  "x": 588,
+                  "y": 260
+                }
+              ],
+              "id": "3ee7868a-8603-47ab-bff9-413c7da36191",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5236759328680037,
+                    "offset": -26.534712655643467
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Instructions",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "53b1c869-6a5c-49a2-9c22-d757b0bb032f"
+              },
+              "target": {
+                "id": "835b79b9-87fa-4cfd-83fe-d0b47731b1af"
+              },
+              "vertices": [
+                {
+                  "x": 577,
+                  "y": 422
+                }
+              ],
+              "id": "c853a940-1b83-4bad-a6e0-208487c0d950",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5846558240073306,
+                    "offset": -37.30869610993169
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Integrity Change\nInformation",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
-          "height": 590,
-          "width": 790
+          "height": 609.9999389648438,
+          "width": 825
         }
       }
     ]
