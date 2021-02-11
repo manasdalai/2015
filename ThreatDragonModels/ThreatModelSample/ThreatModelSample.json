@@ -96,7 +96,8 @@
                 "id": "1d326482-049c-4998-818e-5c74ed611318"
               },
               "target": {
-                "id": "ffd01c3d-453b-4c76-8be9-98c1b30706f0"
+                "x": 337,
+                "y": 156
               },
               "vertices": [
                 {
@@ -187,6 +188,14 @@
                 {
                   "x": 363,
                   "y": 265
+                },
+                {
+                  "x": 415,
+                  "y": 206
+                },
+                {
+                  "x": 428,
+                  "y": 159
                 }
               ],
               "id": "279e4857-9516-4a13-83d9-a16d37c1d991",
@@ -245,6 +254,7 @@
               ],
               "z": 8,
               "hasOpenThreats": false,
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -308,7 +318,16 @@
                 "x": 591,
                 "y": 154
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 315,
+                  "y": 401
+                },
+                {
+                  "x": 384,
+                  "y": 339
+                }
+              ],
               "id": "63f33980-e54c-4c71-b795-673d576260ed",
               "z": 10,
               "attrs": {}
